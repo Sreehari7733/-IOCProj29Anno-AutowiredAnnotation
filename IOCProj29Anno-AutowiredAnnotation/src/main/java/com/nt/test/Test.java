@@ -1,11 +1,11 @@
 package com.nt.test;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.nt.beans.Flipkart;
 public class Test {
+@SuppressWarnings("resource")
 public static void main(String a[]) {
 	//Create application Context container
 	ApplicationContext ctx=new ClassPathXmlApplicationContext("com/nt/cfgs/applicationContext.xml");

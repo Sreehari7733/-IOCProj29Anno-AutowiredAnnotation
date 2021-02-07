@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Flipkart {
 	@Autowired
-	@Qualifier("dtdc")
-	//@Qualifier("cr1")
+	/* @Qualifier("bDart") */
+	 	//@Qualifier("cr1")
 	private Corrier courier;
 	
 	public Flipkart() {

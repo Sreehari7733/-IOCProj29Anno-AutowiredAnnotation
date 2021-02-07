@@ -15,11 +15,11 @@
           <qualifier value="cr3"/>
     </bean>  -->
     
-     <bean id="dtdc"  class="com.nt.beans.DTDC" />
-     <bean id="bDart" class="com.nt.beans.BlueDart" />
+     <bean id="dtdc"  class="com.nt.beans.DTDC" primary="true"/>
+     <bean id="courier" class="com.nt.beans.BlueDart" />
     
     <!-- Target Spring Beans cfgs -->
-     <bean id="fpkt"  class="com.nt.beans.Flipkart"/>
+     <bean id="fpkt"  class="com.nt.beans.Flipkart" autowire="byType"/>
      
      <!-- @AutoWired's  BeanPostProcessor class -->
      <!-- <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/> -->

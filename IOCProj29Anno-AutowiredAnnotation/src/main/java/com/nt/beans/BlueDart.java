@@ -7,7 +7,7 @@ public class BlueDart implements Corrier {
 	}
 	
 	public String delivery(int oid) {
-		return "flipkart order is delivered by dtdc corrier"+oid+"is order id";
+		return "flipkart order is delivered by BlueDart corrier"+oid+"is order id";
 	}
 
 }
