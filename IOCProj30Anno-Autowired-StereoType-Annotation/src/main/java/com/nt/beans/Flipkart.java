@@ -12,7 +12,7 @@ import com.nt.beans1.ICorrier;
 @Component("fpkt")
 public class Flipkart {
 	@Autowired(required=true)
-	@Qualifier("dtdc")
+	@Qualifier("bDart")
 	private ICorrier corrier;
 
 	public Flipkart() {
